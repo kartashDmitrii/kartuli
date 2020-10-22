@@ -1,0 +1,64 @@
+section.contacts
+  margin-bottom: 180px
+  position: relative
+  &:before
+    content: ''
+    left: -65px
+    top: 239px
+    position: absolute
+    width: 140px
+    height: 142px
+    background: url("../img/grape.png") center center / 100% 100% no-repeat
+    filter: blur(5px)
+    transform: rotate(122deg)
+  .container
+    display: flex
+    justify-content: space-between
+    &:after
+      content: ''
+      right: -25px
+      top: -32px
+      position: absolute
+      width: 55px
+      height: 55px
+      background: url("../img/tomato.png") center center / 100% 100% no-repeat
+      transform: rotate(-14deg)
+    .map
+      width: 690px
+      margin-right: 130px
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+      border-radius: 10px 50px
+      @media (max-width: 1023px)
+        width: 50%
+        margin-right: 50px
+      iframe
+        width: 100%
+        height: 100%
+        border-radius: 10px 50px
+    .right-side
+      display: flex
+      flex-direction: column
+      .title
+        margin-bottom: 44px
+      ul
+        padding: 0
+        margin: 0
+        list-style: none
+        display: flex
+        flex-direction: column
+        li
+          display: flex
+          flex-direction: column
+          margin-bottom: 33px
+          .name
+            font-weight: 600
+            font-size: 20px
+            line-height: 27px
+            color: $black
+            margin: 0 0 6px
+          .desc
+            font-size: 18px
+            line-height: 25px
+            color: $black
+            margin: 0
+            text-decoration: none

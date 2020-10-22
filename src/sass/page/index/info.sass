@@ -1,0 +1,53 @@
+section.info
+  position: relative
+  margin-bottom: 70px
+  &:before
+    content: ''
+    width: 222px
+    height: 226px
+    position: absolute
+    bottom: 0
+    left: -85px
+    background: url("../img/grape.png") center center / 100% 100% no-repeat
+    filter: blur(4px)
+    transform: rotate(104.5deg)
+  &:after
+    content: ''
+    width: 56px
+    height: 59px
+    position: absolute
+    bottom: -98px
+    left: 124px
+    background: url("../img/onion.png") center center / 100% 100% no-repeat
+    filter: blur(2px)
+    transform: rotate(32.6deg)
+  .container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .left-side
+      display: flex
+      flex-direction: column
+      width: 700px
+      @media (max-width: 950px)
+        width: calc(60% - 40px)
+      .title
+        margin-bottom: 30px
+      .desc
+        font-size: 18px
+        line-height: 24px
+        color: $black
+        margin: 0 0 43px
+        width: 590px
+        @media (max-width: 950px)
+          width: 100%
+    .image
+      width: 533px
+      height: auto
+      position: relative
+      right: -150px
+      transform: rotate(4deg)
+      @media (max-width: 1580px)
+        right: 0
+      @media (max-width: 950px)
+        width: 40%

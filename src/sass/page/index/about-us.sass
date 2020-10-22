@@ -1,0 +1,85 @@
+section.about-us
+  margin-bottom: 170px
+  position: relative
+  &:after
+    content: ''
+    right: -112.5px
+    top: -133px
+    width: 209px
+    height: 348px
+    position: absolute
+    transform: matrix(0.88, 0.47, 0.47, -0.88, 0, 0) rotate(-12deg)
+    background: url("../img/grape_leaf.png") center center / 100% 100% no-repeat
+  .container
+    display: flex
+    flex-direction: column
+    align-items: center
+    &:before
+      content: ''
+      width: 30px
+      height: 30px
+      position: absolute
+      bottom: 0
+      top: 0
+      margin: auto
+      left: -103px
+      transform: rotate(-14deg)
+      background: url("../img/tomato.png") center center / 100% 100% no-repeat
+    &:after
+      content: ''
+      width: 24px
+      height: 24px
+      position: absolute
+      bottom: -12px
+      margin: auto
+      right: -88px
+      transform: rotate(-14deg)
+      background: url("../img/tomato.png") center center / 100% 100% no-repeat
+    .title
+      margin-bottom: 54px
+      position: relative
+      &:before
+        content: ''
+        width: 24px
+        height: 24px
+        position: absolute
+        top: 2px
+        left: -145px
+        transform: rotate(-14deg)
+        filter: blur(1px)
+        background: url("../img/tomato.png") center center / 100% 100% no-repeat
+      &:after
+        content: ''
+        width: 24px
+        height: 24px
+        position: absolute
+        top: -36px
+        right: -383px
+        transform: rotate(31deg)
+        background: url("../img/tomato.png") center center / 100% 100% no-repeat
+    .content
+      display: flex
+      align-items: center
+      .desc
+        width: calc(100% - 760px)
+        margin-right: 40px
+        @media (max-width: 1365px)
+          width: calc(100% - 560px)
+        @media (max-width: 875px)
+          width: calc(50% - 30px)
+        *
+          margin: 0 0 10px
+          &:last-child
+            margin-bottom: 0
+        p
+          font-size: 18px
+          line-height: 24px
+      .image
+        width: 720px
+        height: auto
+        @media (max-width: 1365px)
+          width: 560px
+        @media (max-width: 850px)
+          width: 50%
+        img
+          border-radius: 10px 50px

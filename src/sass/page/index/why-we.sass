@@ -1,0 +1,107 @@
+section.why-we
+  margin-bottom: 222px
+  position: relative
+  &:before
+    content: ''
+    width: 108px
+    height: 110px
+    position: absolute
+    top: 16px
+    left: -38px
+    filter: blur(4px)
+    transform: rotate(69deg)
+    background: url("../img/grape.png") center center / 100% 100% no-repeat
+  .container
+    display: flex
+    flex-direction: column
+    align-items: center
+  .title
+    margin-bottom: 87px
+    position: relative
+    &:before
+      content: ''
+      width: 46px
+      height: 57px
+      position: absolute
+      bottom: -63px
+      left: -158px
+      transform: rotate(47deg)
+      background: url("../img/pepper.png") center center / 100% 100% no-repeat
+    &:after
+      content: ''
+      width: 107px
+      height: 100px
+      position: absolute
+      bottom: -131px
+      right: -402px
+      transform: rotate(-22deg)
+      background: url("../img/khinkali.png") center center / 100% 100% no-repeat
+  .features
+    display: flex
+    justify-content: center
+    .elem
+      display: flex
+      flex-direction: column
+      margin-right: 90px
+      align-items: center
+      max-width: 268px
+      &:first-child
+        position: relative
+        &:before
+          content: ''
+          width: 56px
+          height: 56px
+          position: absolute
+          top: 0
+          bottom: 0
+          left: -100px
+          transform: rotate(-14deg)
+          background: url("../img/tomato.png") center center / 100% 100% no-repeat
+        &:after
+          content: ''
+          width: 127px
+          height: 119px
+          position: absolute
+          bottom: -17px
+          left: -245px
+          transform: rotate(15.5deg)
+          background: url("../img/khinkali.png") center center / 100% 100% no-repeat
+      &:last-child
+        margin-right: 0
+        position: relative
+        &:after
+          content: ''
+          width: 70px
+          height: 73px
+          position: absolute
+          bottom: -31px
+          right: -268px
+          transform: rotate(-35deg)
+          background: url("../img/onion.png") center center / 100% 100% no-repeat
+      .image
+        width: 120px
+        height: 120px
+        position: relative
+        display: flex
+        align-items: center
+        justify-content: center
+        background: url("../img/svg/round-border.svg") center center / 100% 100% no-repeat
+        margin-bottom: 30px
+        img
+          width: 71px
+          height: auto
+      p
+        max-width: 255px
+        font-weight: 600
+        font-size: 22px
+        line-height: 30px
+        color: $black
+        margin: 0 0 20px
+        text-align: center
+      span
+        font-size: 18px
+        line-height: 25px
+        text-align: center
+        color: $black
+        margin: 0
+        display: block

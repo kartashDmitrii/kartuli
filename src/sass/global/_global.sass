@@ -1,0 +1,44 @@
+html
+  overflow-x: hidden
+  scroll-behavior: smooth
+body
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  font-family: OpenSans
+  position: relative
+  overflow-x: hidden
+  &.hidden
+    max-height: 100vh
+    overflow: hidden
+  *
+    -webkit-tap-highlight-color: transparent
+  main
+    flex: 1
+section .title
+  font-family: Bosk
+  font-size: 62px
+  line-height: 62px
+  color: $black
+  margin: 0
+img
+  width: 100%
+  height: auto
+
+.btn
+  text-decoration: none
+  font-weight: 600
+  font-size: 22px
+  line-height: 30px
+  font-family: OpenSans
+  color: $light
+  padding: 17px
+  width: 335px
+  background: $accent
+  border-radius: 10px 40px
+  border: none
+  outline: none
+  cursor: pointer
+  display: flex
+  justify-content: center
+  align-items: center

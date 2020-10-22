@@ -1,0 +1,69 @@
+section.wrapper
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  width: 100vw
+  height: 100vh
+  background: rgba(0,0,0,.3)
+  z-index: 10
+  cursor: pointer
+  &.open
+    display: block
+  .popup
+    background: #fff
+    position: fixed
+    top: 30px
+    left: 0
+    right: 0
+    margin: auto
+    max-width: 670px
+    flex-direction: column
+    align-items: center
+    padding: 40px 110px 60px
+    box-sizing: border-box
+    display: none
+    cursor: default
+    &.open
+      display: flex
+    .title
+      margin-bottom: 10px
+    p
+      font-size: 18px
+      line-height: 25px
+      color: $black
+      text-align: center
+    form
+      display: flex
+      flex-direction: column
+      width: 100%
+      label
+        display: flex
+        width: 100%
+        input, textarea
+          border: 1px solid $accent
+          box-sizing: border-box
+          border-radius: 10px 40px
+          padding: 10px 40px
+          font-size: 18px
+          line-height: 25px
+          color: $black
+          width: 100%
+          margin-bottom: 20px
+          resize: none
+          outline: none
+          &::placeholder
+            color: #5E5E5E
+      input[type="submit"]
+        width: 100%
+        border: none
+        cursor: pointer
+    .close
+      position: absolute
+      width: 38px
+      height: 38px
+      top: 48px
+      right: 40px
+      background: url("../img/svg/close.svg") center center / 100% 100% no-repeat
+      cursor: pointer
+      outline: none

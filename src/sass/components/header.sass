@@ -1,0 +1,154 @@
+header
+  position: relative
+  margin-bottom: 55px
+  padding-top: 34px
+  &:before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 800px
+    top: 0
+    left: 0
+    background: url("../img/header_BG.png") center center / 100% 100% no-repeat
+    z-index: -1
+    @media (max-width: 1199px)
+      height: 600px
+  .container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    position: static
+    &:before
+      content: ''
+      width: 184px
+      height: 304px
+      transform: rotate(156deg)
+      position: absolute
+      top: -56px
+      left: -15px
+      background: url("../img/grape_leaf.png") center center / 100% 100% no-repeat
+      z-index: -1
+      @media (max-width: 1150px)
+        content: none
+    &:after
+      content: ''
+      width: 222px
+      height: 226px
+      transform: rotate(159deg)
+      filter: blur(4px)
+      position: absolute
+      top: -55px
+      right: -80px
+      background: url("../img/grape.png") center center / 100% 100% no-repeat
+      z-index: -1
+    .left-side
+      display: flex
+      align-items: center
+      justify-content: flex-start
+    .burger
+      width: 35px
+      height: 35px
+      margin-right: 20px
+      cursor: pointer
+      display: none
+      background: url("../img/svg/menu.svg") center center / 100% 100% no-repeat
+      @media (max-width: 875px)
+        display: block
+    .logo
+      width: 240px
+      height: 65px
+      @media (max-width: 1365px)
+        width: 180px
+        height: 50px
+    nav
+      flex: 1
+      margin: 0 100px
+      @media (max-width: 1365px)
+        margin: 0 20px
+      @media (max-width: 875px)
+        position: fixed
+        top: 0
+        right: 110%
+        transition: right .3s
+        width: 100vw
+        height: 100vh
+        box-sizing: border-box
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        background-color: $light
+        z-index: 15
+        margin: 0
+        &.open
+          right: 0
+      .close
+        display: none
+        position: absolute
+        width: 38px
+        height: 38px
+        top: 48px
+        right: 40px
+        background: url("../img/svg/close.svg") center center / 100% 100% no-repeat
+        cursor: pointer
+        outline: none
+        @media (max-width: 875px)
+          display: block
+      ul
+        padding: 0
+        margin: 0
+        list-style: none
+        display: flex
+        align-items: center
+        justify-content: space-between
+        @media (max-width: 875px)
+          flex-direction: column
+        li
+          display: flex
+          @media (max-width: 875px)
+            margin-bottom: 10px
+            &:last-child
+              margin-bottom: 0
+          a
+            text-decoration: none
+            font-weight: 600
+            font-size: 16px
+            line-height: 22px
+            color: $accent
+    .user-panel
+      display: flex
+      align-items: center
+      justify-content: space-between
+      .phone
+        display: flex
+        align-items: center
+        text-decoration: none
+        font-size: 16px
+        line-height: 22px
+        color: $black
+        margin-right: 65px
+        @media (max-width: 1365px)
+          margin-right: 25px
+        .image
+          width: 24px
+          height: 24px
+          margin-right: 7px
+      .order
+        font-size: 16px
+        line-height: 22px
+        color: $accent
+        padding: 10px
+        border: 1px solid $accent
+        box-sizing: border-box
+        border-radius: 10px 40px
+        width: 225px
+        outline: none
+        cursor: pointer
+        background-color: #f6f6f6
+        @media (max-width: 1365px)
+          width: 185px
+        @media (max-width: 950px)
+          padding: 10px
+          font-size: 14px
+          line-height: 18px
+          width: auto

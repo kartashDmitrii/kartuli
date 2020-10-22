@@ -1,0 +1,6 @@
+footer .container {
+  display: flex;
+  justify-content: space-between; }
+  footer .container .logo {
+    width: 240px;
+    height: 65px; }
