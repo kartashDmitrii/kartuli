@@ -24,6 +24,12 @@ section.wrapper
     box-sizing: border-box
     display: none
     cursor: default
+    @media (max-width: 767px)
+      top: 0
+      width: 100vw
+      height: 100vh
+      box-sizing: border-box
+      max-width: none
     &.open
       display: flex
     .title

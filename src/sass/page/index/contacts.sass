@@ -1,6 +1,8 @@
 section.contacts
   margin-bottom: 180px
   position: relative
+  @media (max-width: 767px)
+    margin-bottom: 75px
   &:before
     content: ''
     left: -65px
@@ -14,6 +16,8 @@ section.contacts
   .container
     display: flex
     justify-content: space-between
+    @media (max-width: 767px)
+      flex-direction: column
     &:after
       content: ''
       right: -25px
@@ -31,6 +35,10 @@ section.contacts
       @media (max-width: 1023px)
         width: 50%
         margin-right: 50px
+      @media (max-width: 767px)
+        width: 100%
+        height: 250px
+        margin-bottom: 15px
       iframe
         width: 100%
         height: 100%
@@ -38,6 +46,8 @@ section.contacts
     .right-side
       display: flex
       flex-direction: column
+      @media (max-width: 767px)
+        width: 100%
       .title
         margin-bottom: 44px
       ul
@@ -46,10 +56,19 @@ section.contacts
         list-style: none
         display: flex
         flex-direction: column
+        @media (max-width: 767px)
+          display: grid
+          grid-template-columns: 1fr 1fr
+          grid-auto-rows: 1fr
+          grid-gap: 24px
+        @media (max-width: 380px)
+          grid-template-columns: 1fr
         li
           display: flex
           flex-direction: column
           margin-bottom: 33px
+          @media (max-width: 380px)
+            margin-bottom: 15px
           .name
             font-weight: 600
             font-size: 20px

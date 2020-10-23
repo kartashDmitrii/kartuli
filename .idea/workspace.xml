@@ -2,120 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f659ccb-0df3-4343-868c-82ee9b947901" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/lib.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Montserrat/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/model1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/model2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/model3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/news.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/profile-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/review1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/svg/burger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/svg/close-red.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/svg/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/svg/filter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/svg/grid-mode-button.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/svg/line-mode-button.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/svg/views.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/lib.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/model.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/footer-refs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/footer-refs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-components/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/global/asides/sex-filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/global/popular-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/global/seo-text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-components/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/index/grid-cams.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/index/last-news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/index/last-reviews.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/index/top-stories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-components/model/video-chat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/model1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/model2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/model3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/news.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/profile-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/review1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/svg/burger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/svg/close-red.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/svg/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/svg/filter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/svg/grid-mode-button.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/svg/line-mode-button.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/svg/views.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/global/block-horizontal-scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/global/headerBurger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/global/headerLanguage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/global/hideList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/index/top-block_video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/footer-refs.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/footer.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/global/asides/sex-filter.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/global/popular-tags.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/global/seo-text.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/header.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/global/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/global/_fonts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/burgerMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/burgerMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/global/_global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/global/_global.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/global/_grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/global/_grid.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/global/_variable.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/global/_variable.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/grid-cams.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/last-news.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/last-reviews.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/top-stories.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/page/index/about-us.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/about-us.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/page/index/contacts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/contacts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/page/index/info.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/info.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/page/index/menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/menu.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/page/index/order-pay.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/order-pay.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/page/index/popup.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/popup.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/page/index/reviews.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/reviews.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/page/index/why-we.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/why-we.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,9 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,12 +44,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -164,24 +66,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\gosexcams\src\js\components\global" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -197,11 +89,12 @@
       <workItem from="1603180218817" duration="16852000" />
       <workItem from="1603261378377" duration="5060000" />
       <workItem from="1603349334636" duration="17389000" />
+      <workItem from="1603433785691" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1603116858340">
@@ -220,5 +113,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="125" width="607" height="789" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603370231565" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603436078427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603436078427" />
   </component>
 </project>

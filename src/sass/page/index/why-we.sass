@@ -1,6 +1,8 @@
 section.why-we
   margin-bottom: 222px
   position: relative
+  @media (max-width: 767px)
+    margin-bottom: 75px
   &:before
     content: ''
     width: 108px
@@ -39,12 +41,20 @@ section.why-we
   .features
     display: flex
     justify-content: center
+    @media (max-width: 767px)
+      flex-direction: column
     .elem
       display: flex
       flex-direction: column
       margin-right: 90px
       align-items: center
       max-width: 268px
+      @media (max-width: 767px)
+        max-width: none
+        margin-right: 0
+        margin-bottom: 15px
+        &:last-child
+          margin-bottom: 0
       &:first-child
         position: relative
         &:before

@@ -25,12 +25,16 @@ section.info
     display: flex
     justify-content: space-between
     align-items: center
+    @media (max-width: 576px)
+      flex-direction: column
     .left-side
       display: flex
       flex-direction: column
       width: 700px
       @media (max-width: 950px)
         width: calc(60% - 40px)
+      @media (max-width: 576px)
+        width: 100%
       .title
         margin-bottom: 30px
       .desc
@@ -41,6 +45,10 @@ section.info
         width: 590px
         @media (max-width: 950px)
           width: 100%
+      .btn
+        @media (max-width: 380px)
+          width: 100%
+          box-sizing: border-box
     .image
       width: 533px
       height: auto
@@ -51,3 +59,5 @@ section.info
         right: 0
       @media (max-width: 950px)
         width: 40%
+      @media (max-width: 380px)
+        width: 70%

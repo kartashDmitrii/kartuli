@@ -6,6 +6,7 @@ export default class BurgerMenu{
         let thisClosePopup = this.closePopup.bind(this);
         this.burger.addEventListener('click', thisOpenPopup);
         this.popup.querySelector('.close').addEventListener('click', thisClosePopup)
+        this.popup.querySelectorAll('a').forEach( elem => elem.addEventListener('click', thisClosePopup))
     }
     openPopup(){
         this.popup.classList.add('open')
