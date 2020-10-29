@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f659ccb-0df3-4343-868c-82ee9b947901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/burgerMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/burgerMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/global/_global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/global/_global.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/about-us.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/about-us.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/contacts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/contacts.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/info.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/info.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/menu.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/order-pay.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/order-pay.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/popup.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/popup.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/reviews.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/reviews.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/page/index/why-we.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/page/index/why-we.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +10,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,7 +59,19 @@
       <recent name="C:\work\gosexcams\src\js\components\global" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -90,11 +88,13 @@
       <workItem from="1603261378377" duration="5060000" />
       <workItem from="1603349334636" duration="17389000" />
       <workItem from="1603433785691" duration="2286000" />
+      <workItem from="1603959467376" duration="26000" />
+      <workItem from="1603959514013" duration="3200000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1603116858340">
@@ -105,10 +105,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603266815203" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1603261392428">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2576" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1603959513957">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603261392428" />
+    <state x="2576" y="343" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1603959513957" />
     <state x="656" y="125" width="607" height="789" key="find.popup" timestamp="1603370231565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
