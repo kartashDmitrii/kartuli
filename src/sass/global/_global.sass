@@ -21,6 +21,11 @@ section .title
   line-height: 62px
   color: $black
   margin: 0
+  position: relative
+  z-index: 5
+  @media (max-width: 576px)
+    font-size: 48px
+    line-height: 48px
 img
   width: 100%
   height: auto
@@ -42,3 +47,6 @@ img
   display: flex
   justify-content: center
   align-items: center
+  transition: all .3s
+  &:hover
+    border-radius: 10px 20px

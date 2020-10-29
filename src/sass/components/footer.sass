@@ -14,12 +14,18 @@ footer
     display: flex
     justify-content: space-between
     align-items: center
+    @media (max-width: 480px)
+      flex-direction: column
     .logo
       width: 240px
       height: 65px
       margin-right: 160px
       @media (max-width: 1365px)
         margin-right: 80px
+      @media (max-width: 576px)
+        margin-right: 0
+      @media (max-width: 480px)
+        margin-bottom: 15px
     nav
       flex: 1
       margin: 0
@@ -40,6 +46,20 @@ footer
             font-size: 16px
             line-height: 22px
             color: $accent
+            position: relative
+            &:after
+              content: ''
+              position: absolute
+              bottom: -2px
+              left: 0
+              height: 2px
+              width: 0
+              background: $light
+              transition: all .3s
+            &:hover:after
+              width: 100%
+              right: 0
+              left: auto
     .links
       display: flex
       margin-left: 340px
@@ -47,6 +67,8 @@ footer
         margin-left: 150px
       @media (max-width: 1024px)
         margin-left: 60px
+      @media (max-width: 576px)
+        margin-left: 0
       a
         width: 30px
         height: 30px

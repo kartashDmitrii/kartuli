@@ -2,6 +2,8 @@ header
   position: relative
   margin-bottom: 55px
   padding-top: 34px
+  @media (max-width: 576px)
+    padding-top: 10px
   &:before
     content: ''
     position: absolute
@@ -18,6 +20,8 @@ header
     justify-content: space-between
     align-items: center
     position: static
+    @media (max-width: 767px)
+      flex-direction: column
     &:before
       content: ''
       width: 184px
@@ -41,10 +45,18 @@ header
       right: -80px
       background: url("../img/grape.png") center center / 100% 100% no-repeat
       z-index: -1
+      @media (max-width: 767px)
+        content: none
     .left-side
+      flex: 1
       display: flex
       align-items: center
+      flex-direction: row
       justify-content: flex-start
+      @media (max-width: 767px)
+        width: 100%
+        justify-content: space-between
+        margin-bottom: 15px
     .burger
       width: 35px
       height: 35px
@@ -82,6 +94,10 @@ header
         margin: 0
         &.open
           right: 0
+      @media (max-width: 767px)
+        height: calc(100vh - 70px)
+      @media (max-width: 380px)
+        height: calc(100vh - 110px)
       .close
         display: none
         position: absolute
@@ -115,10 +131,43 @@ header
             font-size: 16px
             line-height: 22px
             color: $accent
+            cursor: pointer
+            position: relative
+            &:after
+              content: ''
+              position: absolute
+              bottom: -2px
+              left: 0
+              height: 2px
+              width: 0
+              background: $light
+              transition: all .3s
+              @media (max-width: 875px)
+                background: #ffffff
+            &:hover:after
+              width: 100%
+              right: 0
+              left: auto
     .user-panel
       display: flex
       align-items: center
       justify-content: space-between
+      @media (max-width: 767px)
+        height: 70px
+        position: fixed
+        bottom: 0
+        right: 110%
+        width: 100%
+        z-index: 11
+        padding: 15px
+        box-sizing: border-box
+        background: $light
+        transition: right .3s
+        &.active
+          right: 0
+      @media (max-width: 380px)
+        flex-direction: column
+        height: 110px
       .phone
         display: flex
         align-items: center
@@ -129,6 +178,10 @@ header
         margin-right: 65px
         @media (max-width: 1365px)
           margin-right: 25px
+        @media (max-width: 380px)
+          margin-right: 0
+        @media (max-width: 350px)
+          margin-bottom: 15px
         .image
           width: 24px
           height: 24px
@@ -152,3 +205,5 @@ header
           font-size: 14px
           line-height: 18px
           width: auto
+        @media (max-width: 767px)
+          background-color: transparent

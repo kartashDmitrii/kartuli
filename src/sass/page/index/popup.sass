@@ -24,15 +24,29 @@ section.wrapper
     box-sizing: border-box
     display: none
     cursor: default
+    @media (max-width: 767px)
+      top: 0
+      width: 100vw
+      height: 100vh
+      box-sizing: border-box
+      max-width: none
+      padding: 20px 40px 30px
     &.open
       display: flex
     .title
       margin-bottom: 10px
+      @media (max-width: 420px)
+        text-align: center
+        font-size: 36px
+        line-height: 36px
     p
       font-size: 18px
       line-height: 25px
       color: $black
       text-align: center
+      @media (max-width: 420px)
+        font-size: 14px
+        line-height: 18px
     form
       display: flex
       flex-direction: column
@@ -67,3 +81,6 @@ section.wrapper
       background: url("../img/svg/close.svg") center center / 100% 100% no-repeat
       cursor: pointer
       outline: none
+      @media (max-width: 767px)
+        top: 10px
+        right: 10px

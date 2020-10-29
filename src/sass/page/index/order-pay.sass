@@ -1,6 +1,8 @@
 section.order-pay
   margin-bottom: 160px
   position: relative
+  @media (max-width: 380px)
+    margin-bottom: 75px
   &:before
     content: ''
     width: 40px
@@ -15,7 +17,7 @@ section.order-pay
     content: ''
     width: 62px
     height: 64px
-    top: -31px
+    top: -50px
     right: 53px
     position: absolute
     background: url("../img/onion.png") center center / 100% 100% no-repeat
@@ -54,6 +56,10 @@ section.order-pay
       grid-auto-rows: 1fr
       @media (max-width: 1199px)
         grid-gap: 50px
+      @media (max-width: 767px)
+        grid-template-columns: 1fr 1fr
+      @media (max-width: 380px)
+        grid-template-columns: 1fr
       .elem
         display: flex
         flex-direction: column

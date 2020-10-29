@@ -14,7 +14,8 @@ export default class popupFunc {
         this.popup.querySelector('.close').addEventListener('click', this.closePopupFunc);
         this.popup.parentNode.addEventListener('click', this.closePopupFunc);
     }
-    openPopup(){
+    openPopup(event){
+        event.preventDefault();
         this.popup.classList.add('open');
         this.popup.parentNode.classList.add('open');
     }
